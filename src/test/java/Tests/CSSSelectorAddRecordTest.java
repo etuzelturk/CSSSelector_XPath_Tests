@@ -20,7 +20,7 @@ public class CSSSelectorAddRecordTest {
     @BeforeClass
     public void setUp() {
         //Chrome driver yolu
-        System.setProperty("webdriver.chrome.driver", "src/main/java/drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/test/java/drivers/chromedriver.exe");
 
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--window-size=1920,1080");
